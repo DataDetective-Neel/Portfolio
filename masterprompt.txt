@@ -1,0 +1,1028 @@
+# Build a Premium Recruiter-Focused Portfolio for Indraneel Chatterjee
+
+You are building a production-quality personal portfolio website for **Indraneel Chatterjee**, a B.Tech Computer Science & Engineering student specializing in **Machine Learning, Data Science, AI systems, NLP, and backend/ML infrastructure**.
+
+This is NOT a generic student portfolio.
+
+The primary audience is:
+
+1. FAANG / major technology company recruiters
+2. Big 4 recruiters
+3. ML / Data Science hiring managers
+4. Software engineering hiring managers
+5. Research/AI professionals
+
+The website must communicate professional credibility within the **first 10 seconds**.
+
+---
+
+## 1. SOURCE MATERIAL — USE THESE AS THE SOURCE OF TRUTH
+
+Use the following sources:
+
+### Resume
+
+Use the uploaded resume as the authoritative source for:
+
+* Name
+* Education
+* CGPA
+* Experience
+* Projects
+* Publications
+* Achievements
+* Certifications
+* Technologies
+* Contact information
+
+Do NOT invent achievements, employers, metrics, technologies, publications, or experience.
+
+The current resume positions Indraneel as:
+
+**Machine Learning Engineer Intern | Data Science & AI Systems**
+
+and describes hands-on work across:
+
+* Machine Learning
+* NLP
+* LLM systems
+* FastAPI
+* Docker
+* Scikit-learn
+* HuggingFace Transformers
+* Power BI
+* Kafka
+* Redis
+* Celery
+* WebAssembly/WebGPU
+* production-oriented AI systems
+
+Use the resume content carefully and preserve factual accuracy.
+
+### GitHub
+
+GitHub:
+https://github.com/DataDetective-Neel
+
+Inspect the public repositories and use them to understand:
+
+* actual projects
+* technologies
+* repository quality
+* README descriptions
+* screenshots
+* architecture
+* demos
+* deployment information
+* repository links
+
+Do not fabricate repository information.
+
+### Existing website
+
+Existing website:
+
+https://indraneelchatterjee.me
+
+Inspect the existing site to understand:
+
+* what already exists
+* useful content
+* existing assets
+* existing links
+* what should be retained
+* what should be completely redesigned
+
+Do NOT simply redesign the old website.
+
+This is a complete professional redesign.
+
+---
+
+# 2. CORE OBJECTIVE
+
+Build a portfolio that feels like:
+
+**“A young engineer who already thinks and builds like a professional ML/AI engineer.”**
+
+It should NOT feel like:
+
+* a college assignment
+* a template portfolio
+* a flashy developer landing page
+* a gaming website
+* an AI-generated portfolio
+* a personal blog
+* a resume copied into HTML
+
+The website should feel closer to the quality/design language of:
+
+* Linear
+* Vercel
+* Stripe
+* modern AI research labs
+* premium engineering portfolios
+
+Use those only as design inspiration.
+
+Do NOT copy their layouts or branding.
+
+---
+
+# 3. 10-SECOND RULE
+
+The first viewport is the most important part of the entire website.
+
+Within approximately 10 seconds, a recruiter must understand:
+
+### WHO
+
+Indraneel Chatterjee
+
+### WHAT
+
+Machine Learning Engineer / AI Systems Builder
+
+### WHAT HE BUILDS
+
+Machine learning, NLP, LLM applications, data-driven systems, backend infrastructure
+
+### PROOF
+
+9.01 CGPA
+Published research
+ISRO Hackathon
+Smart India Hackathon qualification
+Real deployed/production-oriented projects
+
+### ACTION
+
+View work
+Download resume
+GitHub
+LinkedIn
+
+Do NOT hide important information below the fold.
+
+---
+
+# 4. DESIGN DIRECTION
+
+Use a sophisticated **dark-to-light visual system**.
+
+## Hero
+
+The hero should have a dark/navy/near-black background.
+
+Use:
+
+* near-black
+* deep navy
+* electric blue
+* restrained violet
+* white
+* muted slate
+
+Do not use excessive gradients.
+
+Do not use neon everywhere.
+
+Do not use excessive glassmorphism.
+
+Do not use giant glowing blobs.
+
+Do not use generic AI circuit-board stock imagery.
+
+---
+
+# 5. HERO VISUAL CONCEPT
+
+The hero should eventually contain a professional portrait of Indraneel.
+
+IMPORTANT:
+
+The final portrait will be generated later using an actual photograph of Indraneel.
+
+Therefore:
+
+## Build the website so the portrait is a replaceable asset.
+
+Create something like:
+
+`/public/images/profile-hero.png`
+
+or an equivalent clean asset structure.
+
+For now, use a tasteful temporary placeholder.
+
+DO NOT generate a fake person and present them as Indraneel.
+
+The visual concept should eventually look like:
+
+Indraneel standing/appearing professionally in the hero with a subtle technical visualization surrounding him.
+
+Behind/around the portrait:
+
+DATA → MODEL → DEPLOY
+
+with subtle technical lines/nodes.
+
+The visualization should communicate:
+
+* data
+* machine learning
+* AI
+* deployment
+* engineering
+
+It must remain subtle enough that the text remains the primary focus.
+
+---
+
+# 6. HERO COPY
+
+Use a strong headline similar to:
+
+**Building intelligent systems that learn, reason and scale.**
+
+Supporting copy:
+
+**I build data-driven solutions across machine learning, NLP, LLM applications, and production systems.**
+
+Do not make the copy overly verbose.
+
+Primary CTA:
+
+**Explore My Work →**
+
+Secondary CTA:
+
+**Download Resume ↓**
+
+Additional links:
+
+GitHub
+LinkedIn
+
+---
+
+# 7. HERO CREDIBILITY STRIP
+
+Immediately below the hero content, create a premium credibility strip.
+
+Use factual achievements from the resume.
+
+Potential items include:
+
+**9.01 / 10**
+CGPA
+NIIT University
+
+**Published**
+Research
+2026
+
+**ISRO Hackathon**
+AeroSphinx
+
+**SIH 2025**
+College Level Qualified
+
+**90%+**
+Debugging Time Reduction
+
+Only use the 90%+ figure where it is explicitly supported by the resume/project information.
+
+Make these visually strong but compact.
+
+---
+
+# 8. NAVIGATION
+
+Desktop navigation:
+
+* Home
+* Work
+* Research
+* Experience
+* About
+
+Right side:
+
+* Theme toggle
+* GitHub
+* LinkedIn
+* Resume
+
+Keep navigation minimal.
+
+Do NOT create 10+ navigation items.
+
+On mobile:
+
+Use a clean hamburger menu.
+
+The navigation must work properly with keyboard and touch.
+
+---
+
+# 9. FEATURED WORK
+
+This should be one of the strongest sections.
+
+Heading:
+
+**Projects that solve real problems**
+
+Do NOT make four identical cards.
+
+Use a hierarchy.
+
+## Featured project
+
+PipelineIQ should be presented as the primary featured project if the repository supports it.
+
+Show:
+
+### PipelineIQ
+
+Autonomous CI/CD Failure Resolution
+
+Describe the architecture:
+
+GitHub Actions
+→ Kafka
+→ Failure Analysis
+→ LLM Root Cause Detection
+→ Risk Classification
+→ Automated Fix
+→ Pull Request
+
+Highlight the measurable impact:
+
+**90%+ reduction in mean debugging time**
+
+Provide:
+
+* GitHub link
+* Live Demo link if actually available
+* project details
+
+---
+
+# 10. PROJECTS
+
+Feature the strongest projects based on the resume and GitHub.
+
+Expected major projects include:
+
+### PipelineIQ
+
+Autonomous CI/CD Failure Resolution System
+
+### DocuMentor
+
+AI-Powered Document Assistant
+
+### AeroSphinx
+
+PM2.5 Air Quality Prediction
+
+### Sentiment Analysis / Sentiment Intelligence Dashboard
+
+DistilBERT + DistilBART based NLP system
+
+Do not invent additional projects.
+
+Each project should communicate:
+
+1. Problem
+2. What was built
+3. Technical architecture
+4. Technology
+5. Result/impact
+6. GitHub/demo
+
+Avoid generic descriptions such as:
+
+“An AI-powered application built using Python.”
+
+---
+
+# 11. PROJECT VISUALS
+
+Where possible, create visual representations of the actual systems.
+
+Examples:
+
+PipelineIQ:
+
+GitHub Actions
+↓
+Kafka
+↓
+LLM Analysis
+↓
+Root Cause
+↓
+Fix Generation
+↓
+PR
+
+AeroSphinx:
+
+Satellite AOD
++
+Ground Sensors
+↓
+Feature Engineering
+↓
+Random Forest
+↓
+PM2.5 Prediction
+↓
+Power BI
+
+DocuMentor:
+
+Document
+↓
+Privacy Scanner
+↓
+WebAssembly/WebGPU
+↓
+AI Inference
+↓
+Smart Highlights / Student Mode / Research Mode
+
+These should look like polished system diagrams, not school-project flowcharts.
+
+---
+
+# 12. INTERACTION DESIGN
+
+Use subtle, professional motion.
+
+Examples:
+
+* cards slightly lift on hover
+* arrows reveal smoothly
+* metrics animate when entering viewport
+* architecture lines subtly animate
+* project visuals have subtle depth
+* page sections transition smoothly
+* buttons have restrained interaction feedback
+
+Avoid:
+
+* excessive particle effects
+* cursor-following gimmicks
+* spinning 3D objects
+* excessive parallax
+* auto-playing distracting animations
+* long loading animations
+
+Respect `prefers-reduced-motion`.
+
+---
+
+# 13. RESEARCH SECTION
+
+Create a dedicated:
+
+## Research & Publications
+
+section.
+
+Highlight:
+
+**Relative Aging Comparisons of Two Coherent Systems under Dependent Identically Distributed Components and System Signatures**
+
+Published by Cogniverse Press.
+
+Include:
+
+* publication year
+* publisher
+* DOI
+* concise research description
+* relevant mathematical/reliability concepts
+* link to DOI/publication where available
+
+Make the publication visually feel like a serious research artifact.
+
+Do NOT bury it inside certifications.
+
+---
+
+# 14. EXPERIENCE
+
+Create a professional experience section.
+
+Include the actual experiences from the resume:
+
+### Sponsorship Core Member
+
+Entente 2026 — International Conference
+
+### Sponsorship Lead
+
+siNUsoid — NIIT University Tech Fest
+
+### Learning Assistant
+
+Research & Planning Desk — CoEET
+
+Focus on measurable outcomes and transferable professional skills.
+
+Do not turn this into a giant vertical timeline.
+
+Keep it concise.
+
+---
+
+# 15. ENGINEERING STACK
+
+Create a visually sophisticated skills section.
+
+Do NOT use progress bars.
+
+Do NOT say:
+
+Python — 90%
+Machine Learning — 85%
+
+Instead group technologies.
+
+### Machine Learning
+
+Python
+Scikit-learn
+XGBoost
+Random Forest
+NLP
+Transformers
+
+### AI / LLM
+
+HuggingFace
+LLM Applications
+Model Evaluation
+RAG where supported by actual projects
+
+### Backend / Infrastructure
+
+FastAPI
+Docker
+Kafka
+Redis
+Celery
+
+### Data
+
+Pandas
+SQL
+Power BI
+
+Only include technologies actually supported by the resume/GitHub.
+
+---
+
+# 16. “HOW I BUILD” SECTION
+
+Create a compact visual section showing the engineering workflow:
+
+DATA
+↓
+UNDERSTAND
+↓
+MODEL
+↓
+EVALUATE
+↓
+DEPLOY
+↓
+IMPROVE
+
+Accompany it with a short statement explaining that Indraneel works across the intersection of:
+
+Machine Learning
++
+Data
++
+Software Engineering
++
+AI Systems
+
+This should reinforce his engineering identity.
+
+---
+
+# 17. PROOF / METRICS
+
+Create a visually strong metrics section.
+
+Examples supported by the profile:
+
+**4+**
+Major ML/AI Projects
+
+**90%+**
+Debugging Time Reduction
+
+**1**
+Published Research Contribution
+
+**9.01**
+CGPA
+
+**2+**
+Hackathons / Achievements
+
+Verify all values before displaying them.
+
+Do not manufacture statistics.
+
+---
+
+# 18. ABOUT SECTION
+
+Keep this short.
+
+Do NOT write a long autobiographical story.
+
+The recruiter should already understand most of the profile.
+
+Use the About section to explain:
+
+* what Indraneel works on
+* what he is interested in
+* what kind of engineering problems he likes
+* what direction he wants to grow toward
+
+Keep it professional.
+
+---
+
+# 19. CONTACT
+
+Create a simple professional closing section.
+
+Something like:
+
+**Let's build something meaningful.**
+
+Then:
+
+Email
+LinkedIn
+GitHub
+Resume
+
+Do not create a fake contact form unless there is an actual backend/service.
+
+---
+
+# 20. MOBILE DESIGN IS A FIRST-CLASS REQUIREMENT
+
+The website must be designed for:
+
+* desktop
+* laptop
+* tablet
+* mobile
+
+Do NOT simply shrink the desktop layout.
+
+The mobile version should feel deliberately designed.
+
+At approximately 320px width:
+
+* no horizontal scrolling
+* no clipped content
+* no oversized typography
+* no broken cards
+* no tiny buttons
+* no overlapping elements
+
+The same visual identity must survive across all breakpoints.
+
+---
+
+# 21. PERFORMANCE
+
+Optimize aggressively.
+
+Target:
+
+### Lighthouse
+
+90+ wherever reasonably achievable.
+
+Prioritize:
+
+* fast initial load
+* optimized images
+* lazy loading
+* minimal JavaScript
+* proper font loading
+* semantic HTML
+* responsive images
+* no unnecessary dependencies
+
+The hero must load quickly.
+
+---
+
+# 22. ACCESSIBILITY
+
+Implement:
+
+* semantic HTML
+* keyboard navigation
+* visible focus states
+* accessible buttons
+* meaningful alt text
+* sufficient contrast
+* reduced motion support
+* accessible mobile menu
+
+Do not sacrifice accessibility for aesthetics.
+
+---
+
+# 23. SEO
+
+Implement:
+
+* proper title
+* meta description
+* OpenGraph metadata
+* Twitter/X card metadata
+* canonical URL
+* sitemap where appropriate
+* robots.txt
+* structured metadata where useful
+
+Use the domain:
+
+`indraneelchatterjee.me`
+
+---
+
+# 24. TECH STACK
+
+Prefer:
+
+**Next.js**
+**TypeScript**
+**Tailwind CSS**
+
+Use a modern component architecture.
+
+Keep the project maintainable.
+
+Suggested structure:
+
+`app/`
+`components/`
+`lib/`
+`public/`
+`public/images/`
+`public/projects/`
+
+Separate content/data from presentation where practical.
+
+Do not hard-code the same information across multiple components.
+
+---
+
+# 25. IMAGE ARCHITECTURE
+
+Prepare the website for future generated assets.
+
+Use:
+
+`public/images/profile-hero.png`
+
+`public/images/profile-about.png`
+
+`public/projects/pipelineiq.png`
+
+`public/projects/docuMentor.png`
+
+`public/projects/aerosphinx.png`
+
+`public/projects/sentiment.png`
+
+For now, use clean placeholders where actual assets are unavailable.
+
+Make replacing the images require changing only the asset file, not rewriting the page.
+
+---
+
+# 26. DO NOT GENERATE THE FINAL PORTRAIT YET
+
+This is important.
+
+Do NOT create a fake AI portrait and treat it as Indraneel.
+
+Create the UI and image slots first.
+
+Later, when an actual photograph is provided, the portrait can be generated/edited to match the site's lighting and composition.
+
+---
+
+# 27. GITHUB WORKFLOW
+
+This is extremely important.
+
+The project must be managed through Git.
+
+Initialize Git if necessary.
+
+Create clean, meaningful commits.
+
+Do NOT make one giant commit after everything is finished.
+
+Push progress to the GitHub repository periodically.
+
+Use meaningful commit messages such as:
+
+`chore: initialize portfolio architecture`
+
+`feat: build recruiter-focused hero section`
+
+`feat: add featured projects`
+
+`feat: add research and experience sections`
+
+`feat: implement responsive mobile layout`
+
+`feat: add project architecture visuals`
+
+`perf: optimize images and page loading`
+
+`fix: improve mobile navigation`
+
+`docs: update project documentation`
+
+After each meaningful milestone:
+
+1. Run the project
+2. Check for errors
+3. Verify the build
+4. Commit the changes
+5. Push to GitHub
+
+Do NOT push broken code.
+
+Do NOT create dozens of meaningless commits.
+
+---
+
+# 28. GITHUB README
+
+Create/update the repository README with:
+
+* project overview
+* design philosophy
+* tech stack
+* major sections
+* setup instructions
+* deployment instructions
+* screenshots when available
+* architecture overview
+
+The README should itself look professional.
+
+---
+
+# 29. QUALITY CONTROL
+
+Before considering the project complete, test:
+
+### Desktop
+
+1920px
+1440px
+1280px
+
+### Tablet
+
+1024px
+768px
+
+### Mobile
+
+430px
+390px
+375px
+320px
+
+Check:
+
+* typography
+* spacing
+* navigation
+* animations
+* cards
+* images
+* buttons
+* project links
+* resume download
+* GitHub links
+* LinkedIn link
+* mobile menu
+* theme toggle if implemented
+
+---
+
+# 30. RECRUITER TEST
+
+Before finalizing, perform this mental test:
+
+Imagine a recruiter opens the website for exactly 10 seconds.
+
+Can they answer:
+
+**Who is Indraneel?**
+
+**What does he specialize in?**
+
+**What has he built?**
+
+**Does he have real technical depth?**
+
+**What evidence supports that?**
+
+**How can I see his code?**
+
+**How can I download his resume?**
+
+If any answer is unclear, improve the homepage.
+
+---
+
+# 31. DESIGN PRINCIPLE
+
+The final website should feel:
+
+**Professional**
+**Technical**
+**Premium**
+**Minimal**
+**Confident**
+**Fast**
+**Research-aware**
+**Engineering-focused**
+
+It should NOT feel:
+
+**Flashy**
+**Over-designed**
+**Template-like**
+**Childish**
+**Generic**
+**AI-generated**
+**Like a college assignment**
+
+---
+
+# 32. FINAL SUCCESS CRITERIA
+
+Do not stop at “the website works.”
+
+The final result should make someone think:
+
+> “This is unusually polished for a student.”
+
+Then:
+
+> “He has actually built substantial systems.”
+
+Then:
+
+> “I want to look at his GitHub.”
+
+Then:
+
+> “Let's see if he's suitable for an interview.”
+
+That is the goal.
+
+Build toward that outcome relentlessly.
+
+Start by inspecting the resume, GitHub repositories, and existing website.
+
+Then create the architecture and visual system.
+
+Then implement the hero.
+
+Then implement the featured work.
+
+Then research, experience, skills, and remaining sections.
+
+Continuously test responsiveness and performance.
+
+Commit and push meaningful milestones to GitHub throughout the development process.
